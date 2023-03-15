@@ -4,7 +4,7 @@ function max(array){
     for(let a = 0; a<array.length-1;a+=1){
         //console.log(array[a])
         let num2 = array[a]
-        if(ncompara < num2){
+        if(ncompara <= num2){
             ncompara = num2
         }
     }
@@ -13,5 +13,5 @@ function max(array){
 }
 
 console.log(max([1, 3, 2])) // 3
-console.log(max([14,10, 9, 8, 7, 6, 5, 4])) // 10
+console.log(max([14,10, 9, 8, 77, 6, 5, 4])) // 77
 console.log(max([])) // undefined
